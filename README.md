@@ -2,6 +2,9 @@
 
 Fork of [rollup-plugin-hypothetical](https://github.com/lemmabit/rollup-plugin-hypothetical).
 
+Generate code for imported modules, specifying paths as strings or regexes.
+
+
 ## Differences:
 
 - Supports regex paths

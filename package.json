@@ -1,27 +1,15 @@
 {
-  "name": "rollup-plugin-hypothetical",
-  "version": "2.1.1",
-  "description": "gives Rollup an imaginary file system, e.g. for testing other plugins",
+  "name": "rollup-plugin-code-generator",
+  "version": "1.0.0",
+  "description": "Generate code for imported modules, specifying paths as strings or regexes.",
   "main": "index.js",
-  "engines": {
-    "node": ">=0.12"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Permutatrix/rollup-plugin-hypothetical.git"
-  },
+  "repository": "https://github.com/bhallstein/rollup-plugin-code-generator.git",
   "keywords": [
-    "rollup-plugin"
+    "rollup-plugin", "vite-plugin"
   ],
-  "author": "Permutator <permutatorem@gmail.com>",
+  "author": "Benjamin Hall",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Permutatrix/rollup-plugin-hypothetical/issues"
-  },
-  "homepage": "https://github.com/Permutatrix/rollup-plugin-hypothetical#readme",
+  "homepage": "https://github.com/bhallstein/rollup-plugin-code-generator.git",
   "devDependencies": {
     "rollup": "^2.56.3"
   }
